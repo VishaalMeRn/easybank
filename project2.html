@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            overflow-x: hidden;
+        }
+        .container{
+            max-width: 1600px;
+            margin: 0 auto;
+          
+        }
+        
+        .header-box{
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            align-items: center;
+            border: 1px solid ;
+            position: fixed;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            background-color: rgb(244, 245, 247);
+
+        }
+           
+        
+        .nav-1{
+            padding: 8px;
+            position: relative;
+            z-index: 1;
+        }
+        .nav-2 {
+            display: flex;
+            
+            
+        }
+        .nav-2 ,a{
+            gap:20px;
+            text-decoration: none;
+        }
+        .section-box{
+            display: flex;
+            border: 2px solid;
+            background-image: url("easybank-landing-page-master/images/bg-intro-desktop.svg");
+            background-size: cover;
+            background-position:   top -340px left 550px;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            font-family: 'Roboto', sans-serif;
+            justify-content: space-between;
+            
+            
+            
+            
+        }
+        .child2{
+            
+            width: 50%;
+                
+        }
+        .child2 img{
+            position: absolute;
+            left: 60%;
+            top: -05%;
+        }
+        .child1{
+
+            padding-top: 250px ;
+            padding-bottom: 250px;
+
+        }
+        .middlepage{
+            background-color: rgb(244, 245, 247);
+            padding: 100px;
+        }
+        .section1{
+            background-color: rgb(244, 245, 247);
+        }
+        .img4{
+            display: flex;
+            border:1px solid rgb(244, 245, 247);
+            padding: 100px;
+            padding-top: 20PX;
+            justify-content: space-around;
+            background-color: rgb(244, 245, 247);
+        }
+        
+        .section2 p{
+            text-align: center;
+        }
+        .div1{
+            border: 1px solid white;
+        }
+       
+        
+         .imgs{
+            display: flex ;
+            justify-content: space-between;
+            margin:50px;
+
+        }
+     
+        
+         
+        .logo1{
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        .foot2{
+            align-self: center;
+            padding-left: ;
+           
+            flex-basis: 15%;
+        }
+        .foot2 a{
+            border:rgb(21, 21, 23) solid 1px;
+            background: rgb(130, 222,183);
+            border-radius: 20px;
+            padding: 20px;
+            
+        }
+        footer{
+            color: white;
+            display: flex;
+            flex-direction: row;
+            flex: 0 0 50%;
+            justify-content: space-between;
+            background-color:rgb(60, 60, 60) ;
+            padding: 3%;
+            border: 1px rgb(214, 17, 27) solid;
+        }
+        .foot{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 0;
+            flex-basis: 75%;
+        }
+        footer ul li a{
+            color: white;
+        }
+        footer ul li{
+            list-style-type: none;
+        }
+        .footfoot1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 90px;
+        }
+        .footfoot ul li{
+            padding: 10px;
+        }
+        @media screen and (max-width:576px){
+            .section1  .img4 .img4-child{
+                flex-basis: 80%;
+            }
+
+        }
+
+       
+         
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-box">
+                <div class="nav-1">
+                    <img src="easybank-landing-page-master/images/logo.svg">
+                </div>
+                <div class="nav-2">
+                  <a href="">home</a>
+                  <a href="">about</a>
+                  <a href="">contact</a>
+                  <a href="">blag</a>
+                  <a href="">carrers</a>
+                  </div>
+               
+                <div class="nav-3">
+                <a href="">Request invite</a>
+                </div>
+            </div>  
+        </div>
+
+    </header>
+       
+
+        <section>
+
+                <div class="container">
+                    <article class="section-box">
+                        <div class="child1">
+                            <h1>next generation <br>digital banking</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit <br> Fugiat itaque sint cumque aut! Impedit, consequuntur?</p>
+                            <a href="">request invite</a>
+                        </div>
+                        <div class="child2">
+                            <img src="/easybank-landing-page-master/images/image-mockups.png" alt="">
+
+                        </div>
+                    </article>
+                </div>
+
+
+                <section class="section1">
+
+                    <div class="container">
+                        <div class="middlepage">
+                            <p>Why choose Easybank?<br><br>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, voluptatem! Lorem<br> ipsum dolor sit amet consectetur adipisicing elit. Ad, harum.</p>
+                        </div>
+                        <article class="img4">
+                            <div class="img4-child">
+                                <img src="easybank-landing-page-master/images/icon-online.svg">
+                                <h3>online banking</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Minima dolor architecto <br>labore repellendus aspernatur qui veritatis<br> excepturi delectus quibusdam placeat!</p>
+                            </div>
+                            <div class="img4-child">
+                                <img src="easybank-landing-page-master/images/icon-online.svg">
+                                <h3>online banking</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Minima dolor architecto <br>labore repellendus aspernatur qui veritatis<br> excepturi delectus quibusdam placeat!</p>
+                            </div>
+                            <div class="img4-child">
+                                <img src="easybank-landing-page-master/images/icon-online.svg">
+                                <h3>online banking</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Minima dolor architecto <br>labore repellendus aspernatur qui veritatis<br> excepturi delectus quibusdam placeat!</p>
+                            </div>
+                            <div class="img4-child">
+                                <img src="easybank-landing-page-master/images/icon-online.svg">
+                                <h3>online banking</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Minima dolor architecto <br>labore repellendus aspernatur qui veritatis<br> excepturi delectus quibusdam placeat!</p>
+                            </div>
+                        </article>
+    
+
+                    </div>
+                </section>
+
+                    
+
+                <section class="section2">
+                    <h5>Latest Articles</h5>
+                    <div class="imgs">
+                        <div class="div1">
+                            <img src="easybank-landing-page-master/images/image-confetti.jpg">
+
+                            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Minima dolor architecto <br>labore repellendus aspernatur qui veritatis<br> excepturi delectus quibusdam placeat!</p>
+                        </div>
+                        <div class="div1">
+                            <img src="easybank-landing-page-master/images/image-confetti.jpg">
+                            <h3>online banking</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Minima dolor architecto <br>labore repellendus aspernatur qui veritatis<br> excepturi delectus quibusdam placeat!</p>
+                        </div>
+                        <div class="div1">
+                            <img src="easybank-landing-page-master/images/image-confetti.jpg">
+                            <h3>online banking</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Minima dolor architecto <br>labore repellendus aspernatur qui veritatis<br> excepturi delectus quibusdam placeat!</p>
+                        </div>
+                        <div class="div1">
+                            <img src="easybank-landing-page-master/images/image-confetti.jpg">
+                            <h3>online banking</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Minima dolor architecto <br>labore repellendus aspernatur qui veritatis<br> excepturi delectus quibusdam placeat!</p>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <div class="foot">
+                        <div class="footfoot1">
+                            <img src="/easybank-landing-page-master/images/logo.svg" alt="">
+                            <div class="emoj">
+                                <img src="/easybank-landing-page-master/images/icon-facebook.svg" alt="">
+                                <img src="/easybank-landing-page-master/images/icon-youtube.svg" alt="">
+                                <img src="/easybank-landing-page-master/images/icon-twitter.svg" alt="">
+                                <img src="/easybank-landing-page-master/images/icon-pinterest.svg" alt="">
+                                <img src="/easybank-landing-page-master/images/icon-instagram.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="footfoot">
+                            <ul>
+                                <li><a href="">about us</a></li>
+                                <li><a href="">contact</a></li>
+                                <li><a href="">blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="footfoot">
+                            <ul>
+                                <li><a href="">carrer</a></li>
+                                <li><a href="">support</a></li>
+                                <li><a href="">privacy policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="foot2">
+                        <a href="">request invite</a>
+                    </div>
+                </footer>
+
+    </section>
+
+</body>
+</html>
